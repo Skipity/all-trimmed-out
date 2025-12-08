@@ -194,8 +194,8 @@
                 >
                     <div class="sm:text-center lg:text-left">
                         <img
-                            src="/images/ato-creations-logo.jpeg"
-                            alt="ATO Creations Logo"
+                            src="/images/logo.jpg"
+                            alt="ATO Logo"
                             class="mb-4 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg mx-auto lg:mx-0"
                         />
                         <h1
