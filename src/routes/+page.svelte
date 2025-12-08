@@ -119,20 +119,20 @@
                         alt="All Trimmed Out Logo"
                     />
                 </div>
-                <div class="hidden md:flex space-x-8">
+                <div class="hidden md:flex space-x-4">
                     <a
                         href="#products"
-                        class="text-neutral-600 hover:text-blue-600 font-medium transition-colors"
+                        class="px-4 py-2 bg-red-700 text-white font-bold rounded hover:bg-blue-900 transition-colors shadow-sm"
                         >Products</a
                     >
                     <a
                         href="#about"
-                        class="text-neutral-600 hover:text-blue-600 font-medium transition-colors"
+                        class="px-4 py-2 bg-red-700 text-white font-bold rounded hover:bg-blue-900 transition-colors shadow-sm"
                         >Our Facility</a
                     >
                     <a
                         href="#contact"
-                        class="text-neutral-600 hover:text-blue-600 font-medium transition-colors"
+                        class="px-4 py-2 bg-red-700 text-white font-bold rounded hover:bg-blue-900 transition-colors shadow-sm"
                         >Contact</a
                     >
                 </div>
@@ -209,7 +209,7 @@
                             <div class="mt-3 sm:mt-0 sm:ml-3">
                                 <a
                                     href="#contact"
-                                    class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-red-700 bg-red-100 hover:bg-red-200 md:py-4 md:text-lg transition-all"
+                                    class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-700 hover:bg-blue-900 md:py-4 md:text-lg transition-all"
                                 >
                                     Visit Showroom
                                 </a>
@@ -220,7 +220,7 @@
             </div>
         </div>
         <div
-            class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 bg-neutral-100 flex items-center justify-center overflow-hidden"
+            class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 bg-neutral-100 flex items-center justify-center overflow-hidden lg:pr-8"
         >
             <!-- Hero Image (using one of the nice entrance/showroom shots if possible, or just the logo large) -->
             <img
