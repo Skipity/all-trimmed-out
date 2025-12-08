@@ -109,6 +109,14 @@
     ];
 </script>
 
+<svelte:head>
+    <title>All Trimmed Out | Florida's Premier Door & Millwork Supplier</title>
+    <meta
+        name="description"
+        content="Florida's premier source for doors and millwork. Serving builders and contractors with top-tier, hurricane-rated solutions from trusted brands like PlastPro, Therma-Tru, and Sterling."
+    />
+</svelte:head>
+
 <div
     class="min-h-screen bg-neutral-50 font-sans text-neutral-900 selection:bg-blue-600 selection:text-white"
 >
