@@ -31,56 +31,67 @@
             name: "PlastPro",
             img: "/images/PlastPro20251204_103707.webp",
             desc: "Fiberglass doors that offer the beauty of wood with superior durability.",
+            url: "https://www.plastproinc.com",
         },
         {
             name: "Therma-Tru",
             img: "/images/Thuramtru20251204_103823.webp",
             desc: "The nation’s leading manufacturer of fiberglass and steel exterior door systems.",
+            url: "https://www.thermatru.com",
         },
         {
-            name: "Origin",
+            name: "Sterling Doors & Windows (formally Origin)",
             img: "/images/Origin20251204_103718.webp",
             desc: "Premium aluminum bi-fold doors and windows.",
+            url: "https://sterlingdw.com",
         },
         {
             name: "Cavity Sliders",
             img: "/images/Cavity Sliders20251204_103739.webp",
             desc: "High quality pocket door hardware and frames.",
+            url: "https://www.cavitysliders.com",
         },
         {
             name: "Kwikset",
             img: "/images/Kwikset20251204_103833.webp",
             desc: "Trusted security with style.",
+            url: "https://www.kwikset.com",
         },
         {
             name: "L.J. Smith",
             img: "/images/LJ Smith20251204_103916.webp",
             desc: "Distinctive stair systems and wood products.",
+            url: "https://www.ljsmith.com",
         },
         {
             name: "Millwork Sales",
             img: "/images/Millwork Sales20251204_103850.webp",
             desc: "Custom millwork solutions.",
+            url: "https://millworksales.com",
         },
         {
             name: "Ponderosa",
             img: "/images/Ponderosa20251204_103929.webp",
             desc: "Quality wood doors and millwork.",
+            url: "https://ponderosawood.com",
         },
         {
             name: "Woodgrain",
             img: "/images/Woodgrain20251204_103954.webp",
             desc: "One of the largest millwork companies in the world.",
+            url: "https://www.woodgrain.com",
         },
         {
             name: "US Lumber",
             img: "/images/US Lumber20251204_104119.webp",
             desc: "Leading distributor of building materials.",
+            url: "https://www.uslumber.com",
         },
         {
             name: "Acre",
             img: "/images/Acre exterior product20251204_104014.webp",
             desc: "Sustainable, durable exterior trim and decking.",
+            url: "https://modern-mill.com",
         },
     ];
 
@@ -93,7 +104,7 @@
 </script>
 
 <div
-    class="min-h-screen bg-neutral-50 font-sans text-neutral-900 selection:bg-amber-500 selection:text-white"
+    class="min-h-screen bg-neutral-50 font-sans text-neutral-900 selection:bg-blue-600 selection:text-white"
 >
     <!-- Navbar -->
     <nav
@@ -111,18 +122,18 @@
                 <div class="hidden md:flex space-x-8">
                     <a
                         href="#products"
-                        class="text-neutral-600 hover:text-amber-600 font-medium transition-colors"
+                        class="text-neutral-600 hover:text-blue-600 font-medium transition-colors"
                         >Products</a
                     >
                     <a
                         href="#about"
-                        class="text-neutral-600 hover:text-amber-600 font-medium transition-colors"
+                        class="text-neutral-600 hover:text-blue-600 font-medium transition-colors"
                         >Our Facility</a
                     >
                     <a
                         href="#contact"
-                        class="px-4 py-2 bg-amber-600 text-white font-bold rounded hover:bg-amber-700 transition-colors shadow-lg shadow-amber-600/20"
-                        >Get a Quote</a
+                        class="text-neutral-600 hover:text-blue-600 font-medium transition-colors"
+                        >Contact</a
                     >
                 </div>
             </div>
@@ -131,21 +142,21 @@
 
     <!-- Canon Result Section (Dynamic) -->
     {#if result}
-        <section class="bg-amber-50 border-b border-amber-100 py-12">
+        <section class="bg-blue-50 border-b border-blue-100 py-12">
             <div class="max-w-4xl mx-auto px-4 text-center">
-                <h2 class="text-3xl font-bold text-amber-900 mb-2">
+                <h2 class="text-3xl font-bold text-blue-900 mb-2">
                     Search Result
                 </h2>
                 <div
-                    class="p-6 bg-white rounded-xl shadow-lg border border-amber-200"
+                    class="p-6 bg-white rounded-xl shadow-lg border border-blue-200"
                 >
-                    <p class="text-2xl font-mono text-amber-800">{result}</p>
+                    <p class="text-2xl font-mono text-blue-800">{result}</p>
                     <p class="mt-4 text-neutral-600">
                         Contact us immediately to secure this item.
                     </p>
                     <a
                         href="#contact"
-                        class="mt-6 inline-block px-8 py-3 bg-amber-600 text-white font-bold rounded hover:bg-amber-700 transition-colors"
+                        class="mt-6 inline-block px-8 py-3 bg-blue-700 text-white font-bold rounded hover:bg-blue-800 transition-colors"
                         >Inquire Now</a
                     >
                 </div>
@@ -169,17 +180,20 @@
                             <span class="block xl:inline"
                                 >Florida's Premier Source for</span
                             >
-                            <span class="block text-amber-600"
+                            <span class="block text-blue-700"
                                 >Doors & Millwork</span
                             >
                         </h1>
                         <p
                             class="mt-3 text-base text-neutral-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
                         >
-                            At <strong>All Trimmed Out</strong>, we don't just
-                            sell doors; we define entrances. From
-                            hurricane-rated durability to stunning architectural
-                            impact, we stock the biggest names in the industry.
+                            At <strong>All Trimmed Out</strong>, we’re more than
+                            a door supplier; we’re your trade partner. We
+                            support builders and contractors with top-tier,
+                            hurricane-rated solutions and the most trusted
+                            architectural brands, giving you reliability and
+                            confidence so you can deliver exceptional quality
+                            results every time.
                         </p>
                         <div
                             class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"
@@ -187,7 +201,7 @@
                             <div class="rounded-md shadow">
                                 <a
                                     href="#products"
-                                    class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-amber-600 hover:bg-amber-700 md:py-4 md:text-lg transition-all hover:scale-105"
+                                    class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-700 hover:bg-blue-800 md:py-4 md:text-lg transition-all hover:scale-105"
                                 >
                                     See Our Collection
                                 </a>
@@ -195,7 +209,7 @@
                             <div class="mt-3 sm:mt-0 sm:ml-3">
                                 <a
                                     href="#contact"
-                                    class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-amber-700 bg-amber-100 hover:bg-amber-200 md:py-4 md:text-lg transition-all"
+                                    class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-red-700 bg-red-100 hover:bg-red-200 md:py-4 md:text-lg transition-all"
                                 >
                                     Visit Showroom
                                 </a>
@@ -222,7 +236,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">
                 <h2
-                    class="text-base font-semibold text-amber-600 tracking-wide uppercase"
+                    class="text-base font-semibold text-blue-700 tracking-wide uppercase"
                 >
                     Our Partners
                 </h2>
@@ -241,8 +255,11 @@
                 class="mt-16 grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
             >
                 {#each products as product}
-                    <div
-                        class="group relative bg-white border border-neutral-200 rounded-lg overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-1"
+                    <a
+                        href={product.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="group relative bg-white border border-neutral-200 rounded-lg overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 block"
                     >
                         <div
                             class="aspect-w-3 aspect-h-2 bg-neutral-200 group-hover:opacity-90 transition-opacity h-48 overflow-hidden"
@@ -255,7 +272,7 @@
                         </div>
                         <div class="p-6">
                             <h3
-                                class="text-lg font-bold text-neutral-900 group-hover:text-amber-600 transition-colors"
+                                class="text-lg font-bold text-neutral-900 group-hover:text-blue-700 transition-colors"
                             >
                                 {product.name}
                             </h3>
@@ -263,7 +280,7 @@
                                 {product.desc}
                             </p>
                         </div>
-                    </div>
+                    </a>
                 {/each}
             </div>
         </div>
@@ -274,7 +291,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="lg:text-center mb-16">
                 <h2
-                    class="text-base text-amber-500 font-semibold tracking-wide uppercase"
+                    class="text-base text-red-500 font-semibold tracking-wide uppercase"
                 >
                     Our Scale
                 </h2>
@@ -284,8 +301,9 @@
                     Stocked & Ready
                 </p>
                 <p class="mt-4 max-w-2xl text-xl text-neutral-400 lg:mx-auto">
-                    Visit our massive showroom and warehouse facilities. If you
-                    need it, we likely have it on the floor.
+                    Explore our showroom and warehouse to see materials up close
+                    while our team helps you evaluate options and plan the best
+                    approach for your project.
                 </p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -312,23 +330,26 @@
     </section>
 
     <!-- CTA / Contact -->
-    <section id="contact" class="py-24 bg-amber-600">
+    <section id="contact" class="py-24 bg-blue-700">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 class="text-3xl font-extrabold text-white sm:text-4xl">
-                Ready to transform your home?
+                Ready to transform your next project?
             </h2>
-            <p class="mt-4 text-xl text-amber-100">
-                Contact All Trimmed Out today for a consultation or quote.
-            </p>
-            <div class="mt-8 flex justify-center">
+            <div class="mt-8 flex flex-col items-center">
+                <p class="text-white text-xl font-bold mb-2">
+                    All Trimmed Out Doors, Millwork, & Trim LLC
+                </p>
+                <p class="text-blue-100 text-lg mb-6">
+                    4501 Ulmerton Road Unit D<br />
+                    Clearwater, Fl. 33762
+                </p>
                 <a
-                    href="tel:+15551234567"
-                    class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-bold rounded-md text-amber-600 bg-white hover:bg-amber-50 md:py-4 md:text-xl md:px-10 shadow-xl transition-transform hover:scale-105"
+                    href="tel:727-625-8746"
+                    class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-bold rounded-md text-blue-700 bg-white hover:bg-neutral-100 md:py-4 md:text-xl md:px-10 shadow-xl transition-transform hover:scale-105"
                 >
-                    Call Us Now
+                    727-625-8746
                 </a>
             </div>
-            <p class="mt-6 text-amber-200 text-sm">Serving all of Florida.</p>
         </div>
     </section>
 
