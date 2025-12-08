@@ -135,6 +135,11 @@
                 </div>
                 <div class="hidden md:flex space-x-4">
                     <a
+                        href="/work"
+                        class="px-4 py-2 bg-red-700 text-white font-bold rounded hover:bg-blue-900 transition-colors shadow-sm"
+                        >Examples</a
+                    >
+                    <a
                         href="#products"
                         class="px-4 py-2 bg-red-700 text-white font-bold rounded hover:bg-blue-900 transition-colors shadow-sm"
                         >Products</a
@@ -324,6 +329,23 @@
                     while our team helps you evaluate options and plan the best
                     approach for your project.
                 </p>
+                <div
+                    class="mt-10 max-w-3xl mx-auto bg-neutral-800/50 p-6 rounded-lg border border-neutral-700"
+                >
+                    <h3 class="text-xl font-bold text-white mb-3">
+                        Our Mission
+                    </h3>
+                    <p class="text-neutral-300 italic leading-relaxed">
+                        To be the most trusted trade partner for West Coast
+                        Florida contractors by delivering high-quality exterior
+                        and interior doors, trim, and millwork solutions, stair
+                        parts, and specialty systems like bi-fold and pivot
+                        doors with unmatched service, honesty, and integrity. We
+                        are committed to supporting our contractors and their
+                        customers with expert guidance, reliable products, and a
+                        partnership they can depend on.
+                    </p>
+                </div>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {#each facilities as facility}
