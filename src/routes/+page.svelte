@@ -93,6 +93,12 @@
             desc: "Sustainable, durable exterior trim and decking.",
             url: "https://modern-mill.com",
         },
+        {
+            name: "Novo Building Products",
+            img: "/images/novobp.webp",
+            desc: "Leading manufacturer and distributor of stair parts, mouldings, and specialty millwork.",
+            url: "https://www.novobp.com/",
+        },
     ];
 
     const facilities = [
