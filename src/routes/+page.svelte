@@ -188,6 +188,11 @@
                     class="mt-10 mx-auto max-w-7xl sm:mt-12 md:mt-16 lg:mt-20 xl:mt-28"
                 >
                     <div class="sm:text-center lg:text-left">
+                        <img
+                            src="/images/ato-creations-logo.jpeg"
+                            alt="ATO Creations Logo"
+                            class="mb-4 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg mx-auto lg:mx-0"
+                        />
                         <h1
                             class="text-4xl tracking-tight font-extrabold text-neutral-900 sm:text-5xl md:text-6xl"
                         >
