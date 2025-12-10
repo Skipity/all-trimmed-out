@@ -34,6 +34,12 @@
             url: "https://www.plastproinc.com",
         },
         {
+            name: "Euro-Wall",
+            img: "/images/Euro-Wall.webp",
+            desc: "Innovative folding, sliding, and stacking door systems with superior strength and design flexibility.",
+            url: "https://euro-wall.com/",
+        },
+        {
             name: "Therma-Tru",
             img: "/images/Thuramtru20251204_103823.webp",
             desc: "The nation’s leading manufacturer of fiberglass and steel exterior door systems.",
