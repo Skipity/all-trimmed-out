@@ -40,6 +40,13 @@
             url: "https://euro-wall.com/",
         },
         {
+            name: "Palm City Ironworks",
+            img: "/images/palm-city-ironworks.webp",
+            desc: "Distinctive iron and steel entry doors that combine beauty with strength.",
+            url: "https://palmcityironworks.com/",
+            containImage: true,
+        },
+        {
             name: "Therma-Tru",
             img: "/images/Thuramtru20251204_103823.webp",
             desc: "The nation’s leading manufacturer of fiberglass and steel exterior door systems.",
@@ -297,7 +304,7 @@
                             <img
                                 src={product.img}
                                 alt={product.name}
-                                class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
+                                class="w-full h-full {product.containImage ? 'object-contain bg-neutral-100' : 'object-cover group-hover:scale-110'} transform transition-transform duration-500"
                             />
                         </div>
                         <div class="p-6">
