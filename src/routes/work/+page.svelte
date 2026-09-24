@@ -1,4 +1,5 @@
 <script>
+    import Seo from "$lib/components/Seo.svelte";
     const images = [
         "/images/work/20251202_074821.webp",
         "/images/work/20251202_074850.webp",
@@ -11,13 +12,11 @@
     ];
 </script>
 
-<svelte:head>
-    <title>Our Work | All Trimmed Out</title>
-    <meta
-        name="description"
-        content="View examples of our premium door, millwork, and trim installations. See the quality and craftsmanship we bring to every project."
-    />
-</svelte:head>
+<Seo
+    title="Door & Millwork Projects | All Trimmed Out | Clearwater, FL"
+    description="Explore door, millwork, and trim project photos from All Trimmed Out in Clearwater, Florida. Find inspiration for your next building or renovation project."
+    path="/work"
+/>
 
 <div class="bg-white min-h-screen font-sans text-neutral-900">
     <!-- Navbar (Simplified version of main nav) -->

@@ -1,4 +1,5 @@
 <script>
+    import Seo from "$lib/components/Seo.svelte";
     import { page } from "$app/stores";
     import { browser } from "$app/environment";
 
@@ -6,7 +7,7 @@
     let result = "";
 
     // Auto-run when someone shares a link like /plum-candy
-    $: if (browser && $page.url.pathname !== "/" && $page.url.pathname !== "") {
+    $: if (browser && $page.url.pathname !== "/") {
         query = decodeURIComponent($page.url.pathname.slice(1));
         runCanon();
     }
@@ -122,13 +123,11 @@
     ];
 </script>
 
-<svelte:head>
-    <title>All Trimmed Out | Florida's Premier Door & Millwork Supplier</title>
-    <meta
-        name="description"
-        content="Florida's premier source for doors and millwork. Serving builders and contractors with top-tier, hurricane-rated solutions from trusted brands like PlastPro, Therma-Tru, and Sterling."
-    />
-</svelte:head>
+<Seo
+    title="Doors & Millwork in Clearwater, FL | All Trimmed Out"
+    description="Shop doors, millwork, trim, stair parts, and specialty door systems for Florida builders and contractors. Visit All Trimmed Out in Clearwater or call 727-625-8746."
+    path="/"
+/>
 
 <div
     class="min-h-screen bg-neutral-50 font-sans text-neutral-900 selection:bg-blue-600 selection:text-white"
